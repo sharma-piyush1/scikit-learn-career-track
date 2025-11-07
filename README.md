@@ -36,7 +36,7 @@ uvicorn app.app:app --reload --port 8000
 
 http://127.0.0.1:8000/docs
 
-🎯 Outcome
+### 🎯 Outcome
 
 This project simulates a real ML workflow suitable for:
 
