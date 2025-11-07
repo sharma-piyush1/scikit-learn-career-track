@@ -1,0 +1,27 @@
+Test Example Input:
+
+Enter this in the FAST API docs:
+{
+  "Pclass": 3,
+  "Sex": "male",
+  "Age": 25,
+  "SibSp": 0,
+  "Parch": 0,
+  "Fare": 7.25,
+  "Embarked": "S"
+}
+You should get:
+{"survived": false, "prediction_raw": 0}
+
+
+Now try:
+{
+  "Pclass": 1,
+  "Sex": "female",
+  "Age": 22,
+  "SibSp": 0,
+  "Parch": 1,
+  "Fare": 85,
+  "Embarked": "C"
+}
+You should get: {"survived": true, "prediction_raw": 1}
